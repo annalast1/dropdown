@@ -1,0 +1,37 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ a {
+    display: block;
+    padding: 0.5em 0 0.6em 0.5em;
+    text-decoration: none;
+    color: white;
+ }
+
+ a:hover {
+    color: blue;
+    background-color: lightgray;
+ }
+
+ #dropdownBox {
+    max-width: 40%;
+ }
+
+ #dropdownBtn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(86, 86, 152);
+    color: white;
+    cursor: pointer;
+ }
+
+ #dropdownMenu {
+    display: none;
+ }
+
+.content {
+    background-color: rgb(157, 157, 239);
+    border-radius: 5px;
+}
